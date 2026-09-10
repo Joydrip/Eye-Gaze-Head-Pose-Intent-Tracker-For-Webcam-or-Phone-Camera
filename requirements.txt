@@ -1,0 +1,7 @@
+# Pinned to versions confirmed working together.
+# IMPORTANT: mediapipe requires Python 3.9-3.11. On Python 3.12+ it may
+# install without error but silently lack mp.solutions, causing:
+#   AttributeError: module 'mediapipe' has no attribute 'solutions'
+mediapipe==0.10.9
+opencv-python==4.10.0.84
+numpy==1.26.4
