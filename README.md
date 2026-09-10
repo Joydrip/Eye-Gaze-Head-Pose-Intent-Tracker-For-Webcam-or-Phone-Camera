@@ -1,4 +1,4 @@
-# Eye Gaze & Head Pose Intent Tracker
+# Eye Gaze & Head Pose Intent Tracker For Webcam or Phone Camera
  
 Real-time eye tracking, blink detection, and head-pose-based "intent"
 estimation from a webcam or phone camera (e.g. DroidCam), with 9-point
@@ -47,8 +47,8 @@ See [`requirements.txt`](requirements.txt) for pinned package versions.
  
 ```bash
 # 1. Clone
-git clone <this-repo-url>
-cd <repo-folder>
+git clone https://github.com/Joydrip/Gaze-for-eye-face-droidcam.git
+cd Gaze-for-eye-face-droidcam
  
 # 2. Create a virtual environment with a supported Python version
 py -3.11 -m venv venv          # Windows
