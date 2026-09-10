@@ -73,8 +73,15 @@ python -c "import mediapipe as mp; print(mp.solutions.face_mesh)"
  
 ```bash
 python detailed_eye_tracking_screen_calibrated.py
+
 ```
- 
+
+Or alternatively (considering python version 3.11 is already installed in the system)
+
+```bash
+py -3.11 detailed_eye_tracking_screen_calibrated.py
+```
+
 Optional camera source argument (index or DroidCam's virtual camera index):
  
 ```bash
